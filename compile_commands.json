@@ -1,0 +1,590 @@
+[
+    {
+        "command": "cc -o .sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_0_e545c732899d0ff15aed5abdcf59e2d9.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" .sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_0.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": ".sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_0.c",
+        "output": ".sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_0_e545c732899d0ff15aed5abdcf59e2d9.o"
+    },
+    {
+        "command": "clang-15 -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include -c -o build/sys/amd64/multiboot.o build/sys/amd64/multiboot.S",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/multiboot.S",
+        "output": "build/sys/amd64/multiboot.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/amd64/mbentry.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/amd64/mbentry.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/mbentry.c",
+        "output": "build/sys/amd64/mbentry.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/amd64/critical.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/amd64/critical.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/critical.c",
+        "output": "build/sys/amd64/critical.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/amd64/debug.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/amd64/debug.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/debug.c",
+        "output": "build/sys/amd64/debug.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/amd64/disasm.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/amd64/disasm.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/disasm.c",
+        "output": "build/sys/amd64/disasm.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/amd64/ioapic.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/amd64/ioapic.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/ioapic.c",
+        "output": "build/sys/amd64/ioapic.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/amd64/irq.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/amd64/irq.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/irq.c",
+        "output": "build/sys/amd64/irq.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/amd64/lapic.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/amd64/lapic.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/lapic.c",
+        "output": "build/sys/amd64/lapic.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/amd64/machine.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/amd64/machine.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/machine.c",
+        "output": "build/sys/amd64/machine.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/amd64/mp.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/amd64/mp.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/mp.c",
+        "output": "build/sys/amd64/mp.o"
+    },
+    {
+        "command": "clang-15 -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include -c -o build/sys/amd64/mpboot.o build/sys/amd64/mpboot.S",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/mpboot.S",
+        "output": "build/sys/amd64/mpboot.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/amd64/pci.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/amd64/pci.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/pci.c",
+        "output": "build/sys/amd64/pci.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/amd64/pmap.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/amd64/pmap.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/pmap.c",
+        "output": "build/sys/amd64/pmap.o"
+    },
+    {
+        "command": "clang-15 -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include -c -o build/sys/amd64/support.o build/sys/amd64/support.S",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/support.S",
+        "output": "build/sys/amd64/support.o"
+    },
+    {
+        "command": "clang-15 -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include -c -o build/sys/amd64/switch.o build/sys/amd64/switch.S",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/switch.S",
+        "output": "build/sys/amd64/switch.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/amd64/thread.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/amd64/thread.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/thread.c",
+        "output": "build/sys/amd64/thread.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/amd64/time.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/amd64/time.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/time.c",
+        "output": "build/sys/amd64/time.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/amd64/trap.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/amd64/trap.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/trap.c",
+        "output": "build/sys/amd64/trap.o"
+    },
+    {
+        "command": "clang-15 -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include -c -o build/sys/amd64/trapentry.o build/sys/amd64/trapentry.S",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/trapentry.S",
+        "output": "build/sys/amd64/trapentry.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/amd64/xmem.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/amd64/xmem.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/amd64/xmem.c",
+        "output": "build/sys/amd64/xmem.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/dev/x86/debugcons.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/dev/x86/debugcons.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/dev/x86/debugcons.c",
+        "output": "build/sys/dev/x86/debugcons.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/dev/x86/ide.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/dev/x86/ide.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/dev/x86/ide.c",
+        "output": "build/sys/dev/x86/ide.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/dev/x86/ps2.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/dev/x86/ps2.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/dev/x86/ps2.c",
+        "output": "build/sys/dev/x86/ps2.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/dev/x86/rtc.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/dev/x86/rtc.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/dev/x86/rtc.c",
+        "output": "build/sys/dev/x86/rtc.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/dev/x86/sercons.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/dev/x86/sercons.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/dev/x86/sercons.c",
+        "output": "build/sys/dev/x86/sercons.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/dev/x86/vgacons.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/dev/x86/vgacons.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/dev/x86/vgacons.c",
+        "output": "build/sys/dev/x86/vgacons.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/copy.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/copy.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/copy.c",
+        "output": "build/sys/kern/copy.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/bufcache.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/bufcache.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/bufcache.c",
+        "output": "build/sys/kern/bufcache.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/cv.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/cv.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/cv.c",
+        "output": "build/sys/kern/cv.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/debug.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/debug.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/debug.c",
+        "output": "build/sys/kern/debug.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/disk.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/disk.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/disk.c",
+        "output": "build/sys/kern/disk.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/handle.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/handle.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/handle.c",
+        "output": "build/sys/kern/handle.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/ktime.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/ktime.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/ktime.c",
+        "output": "build/sys/kern/ktime.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/ktimer.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/ktimer.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/ktimer.c",
+        "output": "build/sys/kern/ktimer.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/libc.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/libc.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/libc.c",
+        "output": "build/sys/kern/libc.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/loader.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/loader.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/loader.c",
+        "output": "build/sys/kern/loader.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/mutex.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/mutex.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/mutex.c",
+        "output": "build/sys/kern/mutex.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/nic.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/nic.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/nic.c",
+        "output": "build/sys/kern/nic.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/palloc.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/palloc.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/palloc.c",
+        "output": "build/sys/kern/palloc.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/printf.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/printf.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/printf.c",
+        "output": "build/sys/kern/printf.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/process.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/process.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/process.c",
+        "output": "build/sys/kern/process.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/sched.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/sched.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/sched.c",
+        "output": "build/sys/kern/sched.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/semaphore.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/semaphore.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/semaphore.c",
+        "output": "build/sys/kern/semaphore.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/sga.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/sga.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/sga.c",
+        "output": "build/sys/kern/sga.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/slab.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/slab.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/slab.c",
+        "output": "build/sys/kern/slab.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/spinlock.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/spinlock.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/spinlock.c",
+        "output": "build/sys/kern/spinlock.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/syscall.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/syscall.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/syscall.c",
+        "output": "build/sys/kern/syscall.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/sysctl.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/sysctl.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/sysctl.c",
+        "output": "build/sys/kern/sysctl.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/thread.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/thread.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/thread.c",
+        "output": "build/sys/kern/thread.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/vfs.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/vfs.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/vfs.c",
+        "output": "build/sys/kern/vfs.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/vfsuio.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/vfsuio.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/vfsuio.c",
+        "output": "build/sys/kern/vfsuio.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/kern/waitchannel.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/kern/waitchannel.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/kern/waitchannel.c",
+        "output": "build/sys/kern/waitchannel.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/dev/ahci.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/dev/ahci.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/dev/ahci.c",
+        "output": "build/sys/dev/ahci.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/dev/console.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/dev/console.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/dev/console.c",
+        "output": "build/sys/dev/console.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/dev/e1000.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/dev/e1000.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/dev/e1000.c",
+        "output": "build/sys/dev/e1000.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/dev/pci.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/dev/pci.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/dev/pci.c",
+        "output": "build/sys/dev/pci.o"
+    },
+    {
+        "command": "clang-15 -o build/sys/fs/o2fs/o2fs.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -D_KERNEL -ffreestanding -fno-builtin -nostdinc -mno-red-zone -mno-mmx -mno-sse -mcmodel=large -Ibuild/include build/sys/fs/o2fs/o2fs.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sys/fs/o2fs/o2fs.c",
+        "output": "build/sys/fs/o2fs/o2fs.o"
+    },
+    {
+        "command": "clang-15 -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include -c -o build/lib/libc/amd64/syscall.o build/lib/libc/amd64/syscall.S",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/amd64/syscall.S",
+        "output": "build/lib/libc/amd64/syscall.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/abort.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/abort.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/abort.c",
+        "output": "build/lib/libc/abort.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/assert.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/assert.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/assert.c",
+        "output": "build/lib/libc/assert.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/core/mutex.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/core/mutex.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/core/mutex.c",
+        "output": "build/lib/libc/core/mutex.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/dir.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/dir.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/dir.c",
+        "output": "build/lib/libc/dir.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/exit.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/exit.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/exit.c",
+        "output": "build/lib/libc/exit.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/file.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/file.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/file.c",
+        "output": "build/lib/libc/file.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/malloc.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/malloc.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/malloc.c",
+        "output": "build/lib/libc/malloc.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/printf.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/printf.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/printf.c",
+        "output": "build/lib/libc/printf.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/process.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/process.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/process.c",
+        "output": "build/lib/libc/process.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/posix/mman.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/posix/mman.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/posix/mman.c",
+        "output": "build/lib/libc/posix/mman.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/posix/pthread.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/posix/pthread.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/posix/pthread.c",
+        "output": "build/lib/libc/posix/pthread.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/stdlib.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/stdlib.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/stdlib.c",
+        "output": "build/lib/libc/stdlib.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/string.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/string.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/string.c",
+        "output": "build/lib/libc/string.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/syscall.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/syscall.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/syscall.c",
+        "output": "build/lib/libc/syscall.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/time.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/time.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/time.c",
+        "output": "build/lib/libc/time.o"
+    },
+    {
+        "command": "clang-15 -o build/lib/libc/crt1.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/lib/libc/crt1.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/crt1.c",
+        "output": "build/lib/libc/crt1.o"
+    },
+    {
+        "command": "clang-15 -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include -c -o build/lib/libc/crti.o build/lib/libc/crti.S",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/crti.S",
+        "output": "build/lib/libc/crti.o"
+    },
+    {
+        "command": "clang-15 -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include -c -o build/lib/libc/crtn.o build/lib/libc/crtn.S",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "lib/libc/crtn.S",
+        "output": "build/lib/libc/crtn.o"
+    },
+    {
+        "command": "clang-15 -o build/bin/cat/cat.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -fno-builtin -nostdinc -Ibuild/include build/bin/cat/cat.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "bin/cat/cat.c",
+        "output": "build/bin/cat/cat.o"
+    },
+    {
+        "command": "clang-15 -o build/bin/date/date.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -fno-builtin -nostdinc -Ibuild/include build/bin/date/date.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "bin/date/date.c",
+        "output": "build/bin/date/date.o"
+    },
+    {
+        "command": "clang-15 -o build/bin/echo/echo.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -fno-builtin -nostdinc -Ibuild/include build/bin/echo/echo.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "bin/echo/echo.c",
+        "output": "build/bin/echo/echo.o"
+    },
+    {
+        "command": "clang-15 -o build/bin/ethdump/ethdump.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/bin/ethdump/ethdump.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "bin/ethdump/ethdump.c",
+        "output": "build/bin/ethdump/ethdump.o"
+    },
+    {
+        "command": "clang-15 -o build/bin/ethinject/ethinject.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/bin/ethinject/ethinject.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "bin/ethinject/ethinject.c",
+        "output": "build/bin/ethinject/ethinject.o"
+    },
+    {
+        "command": "clang-15 -o build/bin/false/false.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -fno-builtin -nostdinc -Ibuild/include build/bin/false/false.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "bin/false/false.c",
+        "output": "build/bin/false/false.o"
+    },
+    {
+        "command": "clang-15 -o build/bin/ls/ls.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -fno-builtin -nostdinc -Ibuild/include build/bin/ls/ls.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "bin/ls/ls.c",
+        "output": "build/bin/ls/ls.o"
+    },
+    {
+        "command": "clang-15 -o build/bin/shell/shell.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -fno-builtin -nostdinc -Ibuild/include build/bin/shell/shell.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "bin/shell/shell.c",
+        "output": "build/bin/shell/shell.o"
+    },
+    {
+        "command": "clang-15 -o build/bin/stat/stat.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -fno-builtin -nostdinc -Ibuild/include build/bin/stat/stat.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "bin/stat/stat.c",
+        "output": "build/bin/stat/stat.o"
+    },
+    {
+        "command": "clang-15 -o build/bin/true/true.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -fno-builtin -nostdinc -Ibuild/include build/bin/true/true.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "bin/true/true.c",
+        "output": "build/bin/true/true.o"
+    },
+    {
+        "command": "clang-15 -o build/sbin/ifconfig/ifconfig.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/sbin/ifconfig/ifconfig.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sbin/ifconfig/ifconfig.c",
+        "output": "build/sbin/ifconfig/ifconfig.o"
+    },
+    {
+        "command": "clang-15 -o build/sbin/init/init.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -mno-sse -Ibuild/include build/sbin/init/init.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sbin/init/init.c",
+        "output": "build/sbin/init/init.o"
+    },
+    {
+        "command": "clang-15 -o build/sbin/sysctl/sysctl.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -nostdinc -Ibuild/include build/sbin/sysctl/sysctl.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sbin/sysctl/sysctl.c",
+        "output": "build/sbin/sysctl/sysctl.o"
+    },
+    {
+        "command": "clang-15 -o build/tests/fiotest.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -fno-builtin -nostdinc -Ibuild/include build/tests/fiotest.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "tests/fiotest.c",
+        "output": "build/tests/fiotest.o"
+    },
+    {
+        "command": "clang-15 -o build/tests/threadtest.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -fno-builtin -nostdinc -Ibuild/include build/tests/threadtest.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "tests/threadtest.c",
+        "output": "build/tests/threadtest.o"
+    },
+    {
+        "command": "clang-15 -o build/tests/spawnanytest.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -fno-builtin -nostdinc -Ibuild/include build/tests/spawnanytest.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "tests/spawnanytest.c",
+        "output": "build/tests/spawnanytest.o"
+    },
+    {
+        "command": "clang-15 -o build/tests/spawnmultipletest.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -fno-builtin -nostdinc -Ibuild/include build/tests/spawnmultipletest.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "tests/spawnmultipletest.c",
+        "output": "build/tests/spawnmultipletest.o"
+    },
+    {
+        "command": "clang-15 -o build/tests/spawnsingletest.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -fno-builtin -nostdinc -Ibuild/include build/tests/spawnsingletest.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "tests/spawnsingletest.c",
+        "output": "build/tests/spawnsingletest.o"
+    },
+    {
+        "command": "clang-15 -o build/tests/pthreadtest.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -fno-builtin -nostdinc -Ibuild/include build/tests/pthreadtest.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "tests/pthreadtest.c",
+        "output": "build/tests/pthreadtest.o"
+    },
+    {
+        "command": "clang-15 -o build/tests/writetest.o -c -Wshadow -Wno-typedef-redefinition -target x86_64-freebsd-freebsd-elf -fno-builtin -fno-stack-protector -fno-optimize-sibling-calls -DBUILDTYPE=RELEASE -DNDEBUG -Wall -O2 -DGIT_VERSION=\\\"4c98e9e1eb8599590db315c79331ebb7390cd8ba\\\" -fno-builtin -nostdinc -Ibuild/include build/tests/writetest.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "tests/writetest.c",
+        "output": "build/tests/writetest.o"
+    },
+    {
+        "command": "clang-15 -o build/tools/newfs_o2fs/newfs_o2fs.o -c -Isys/fs/o2fs build/tools/newfs_o2fs/newfs_o2fs.c",
+        "directory": "/u8/j462yu/cs350/castoros",
+        "file": "sbin/newfs_o2fs/newfs_o2fs.c",
+        "output": "build/tools/newfs_o2fs/newfs_o2fs.o"
+    }
+]

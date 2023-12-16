@@ -1,0 +1,20 @@
+file /u8/j462yu/cs350/castoros/SConstruct,line 142:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking whether the C compiler works... 
+scons: Configure: ".sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_0.c <-
+  |  |
+  |  |int main(void)
+  |  |{
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_0_e545c732899d0ff15aed5abdcf59e2d9.o" is up to date.
+scons: Configure: The original builder output was:
+  |Compiling .sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_0.c
+  |
+scons: Configure: (cached) yes
+
+
