@@ -6,10 +6,14 @@ Building COS requires:
  - Qemu for simulation
 
 To build the source code run:
-# scons
+```shell
+    scons
+```
 
 To clean the source tree run:
-# scons -c
+```shell
+    scons -c
+```
 
 Building the documentation requires:
  - Doxygen
