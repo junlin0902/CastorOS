@@ -21,7 +21,12 @@ Building the documentation requires:
  - dia
  - Inkscape or png2pdf
 
-To build the documentation run the following command in the root folder:
-# doxygen docs/Doxyfile
-
-This will place the resulting HTML documentation in docs/html.
+Running Command:
+```shell
+    qemu-system-x86_64 \
+    -smp cpus=1 \
+    -kernel build/sys/castor \
+    -hda build/bootdisk.img \
+    -nic none \
+    -nographic
+```
