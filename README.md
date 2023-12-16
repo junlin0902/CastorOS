@@ -1,5 +1,4 @@
 # CastorOS
-
 ## Building COS requires:
  - SCons 4.0+
  - Clang 15
